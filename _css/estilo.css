@@ -1,0 +1,257 @@
+/* Geral */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  color: #4f555a;
+  overflow: auto;
+}
+
+p {
+  font-family: "DM Mono", monospace;
+}
+
+.titulo {
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.titulo-centralizado {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.titulo-centralizado:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 5px;
+  background-color: #37bba4;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+/* Header */
+
+.header {
+  height: 100px;
+  background-color: #e5ecec;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-menu {
+  text-align: right;
+}
+
+.header a {
+  margin-top: 25px;
+}
+
+.header-menu a {
+  padding: 40px 0;
+  color: inherit;
+}
+
+.header-menu a:hover {
+  color: #ea9822;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24pt;
+  margin-left: 20px;
+  letter-spacing: 0.1em;
+  padding: 33px 0;
+}
+
+.header-menu ul li:hover {
+  border-bottom: 2px solid #ea9822;
+}
+/* Principal */
+
+.principal {
+  margin-top: 25px;
+}
+
+.principal img {
+  margin: 200px 0 200px 0;
+}
+
+.principal .txt-intro {
+  margin-top: 303px;
+}
+
+.principal .txt-intro p {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.principal .txt-intro h1 {
+  font-family: "DM Mono", monospace;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+/* Sobre */
+
+.sobre,
+.conhecimentos,
+.footer {
+  width: 100%;
+  background-color: #e5ecec;
+}
+
+.sobre .txt-sobre {
+  margin-top: 285px;
+}
+
+.sobre .txt-sobre h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.sobre .txt-sobre h1:after {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 5px;
+  background-color: #37bba4;
+}
+
+.sobre .txt-sobre p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.sobre img {
+  margin: 100px 0 100px 0;
+}
+
+/* Projetos */
+
+.item-projetos {
+  height: 260px;
+  border: 3px solid #ea9822;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  margin-bottom: 100px;
+}
+
+.item-projetos h2 {
+  margin-top: 20px;
+  margin-bottom: 27px;
+  text-align: center;
+  font-family: "DM Mono", monospace;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.item-projetos p {
+  margin: 0 15px 27px 15px;
+  text-align: center;
+  font-family: "DM Mono", monospace;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.item-projetos img {
+  margin: 0 auto;
+}
+
+.item-projetos img.construcao {
+  margin-top: 75px;
+}
+
+/* Conhecimentos */
+
+.item-conhecimentos {
+  height: 260px;
+  border: 3px solid #37bba4;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  margin-bottom: 100px;
+}
+
+.item-conhecimentos h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "DM Mono", monospace;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.item-conhecimentos img {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.titulo-conhecimento:after {
+  width: 160px;
+}
+
+/* Contato e Redes Sociais */
+
+.txt-contato {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.txt-contato h1::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100px;
+  background-color: #37bba4;
+}
+
+.txt-contato ul.lista-contato {
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.txt-contato ul.lista-redes {
+  margin-top: 30px;
+}
+
+.txt-contato ul.lista-redes li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.txt-contato ul.lista-redes li:nth-child(5) {
+  margin-right: 0px;
+}
+
+/* Footer */
+.footer {
+  height: 100px;
+}
+.footer p {
+  margin-top: 38px;
+  text-align: center;
+}
