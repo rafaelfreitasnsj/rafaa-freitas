@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+@import url(https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -385,14 +385,18 @@ img {
 }
 body {
   color: #4f555a;
+  overflow: auto;
 }
 p {
   font-family: "DM Mono", monospace;
 }
+a {
+  color: inherit;
+}
 .titulo {
   font-family: "Rubik", sans-serif;
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 50px;
 }
 .titulo-centralizado {
@@ -488,6 +492,7 @@ p {
   margin-top: 20px;
   font-size: 18px;
   line-height: 24px;
+  text-align: justify;
 }
 .sobre img {
   margin: 100px 0;
@@ -498,6 +503,11 @@ p {
   border-radius: 20px;
   border-bottom-left-radius: 0;
   margin-bottom: 100px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.item-projetos:hover {
+  scale: 1.1;
+  transition: 0.7s;
 }
 .item-projetos h2 {
   margin-top: 20px;
@@ -518,6 +528,10 @@ p {
 .item-projetos img {
   margin: 0 auto;
 }
+.item-projetos img:hover {
+  margin: 0 auto;
+  color: #37bba4;
+}
 .item-projetos img.construcao {
   margin-top: 75px;
 }
@@ -527,6 +541,12 @@ p {
   border-radius: 20px;
   border-bottom-left-radius: 0;
   margin-bottom: 100px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.item-conhecimentos:hover {
+  scale: 1.1;
+  transition: 0.7s;
+  background-color: #fff;
 }
 .item-conhecimentos h2 {
   margin-top: 20px;
@@ -564,10 +584,7 @@ p {
 }
 .txt-contato ul.lista-redes li {
   display: inline-block;
-  margin-right: 40px;
-}
-.txt-contato ul.lista-redes li:nth-child(3) {
-  margin-right: 0;
+  margin-right: 20px;
 }
 .footer {
   height: 100px;
@@ -575,4 +592,41 @@ p {
 .footer p {
   margin-top: 38px;
   text-align: center;
+}
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .sobre .txt-sobre {
+    margin-top: 200px;
+  }
+  .item-projetos {
+    height: 280px;
+  }
+  .item-projetos .resp-txt1 {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 787px) {
+  .header a img {
+    margin-top: 25px;
+    scale: 0.6;
+  }
+  .principal img {
+    scale: 0.7;
+    margin: 100px 0 10px;
+  }
+  .principal .txt-intro {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  .principal .txt-intro h1 {
+    font-size: 34px;
+  }
+  .principal .txt-intro p {
+    font-size: 20px;
+  }
+  .sobre .txt-sobre {
+    margin-top: 100px;
+  }
+  .sobre .txt-sobre p {
+    text-align: justify;
+  }
 }
