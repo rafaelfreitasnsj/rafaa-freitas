@@ -418,12 +418,12 @@ a {
 #dropmenu {
   position: absolute;
   top: 40px;
-  left: 300px;
+  left: 280px;
 }
 #dropmenu ul {
   background-color: #e5ecec;
   position: absolute;
-  left: -70px;
+  left: -100px;
 }
 #dropmenu ul li {
   padding: 20px;
