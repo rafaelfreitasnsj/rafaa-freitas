@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="50" viewBox="0 0 60 50">
+  <g id="hamburguer" transform="translate(0 -64.267)">
+    <path id="Caminho_72" data-name="Caminho 72" d="M54.478,64.267H5.522a5.955,5.955,0,0,0,0,11.878H54.478a5.955,5.955,0,0,0,0-11.878Z" fill="#37bba4"/>
+    <path id="Caminho_73" data-name="Caminho 73" d="M54.478,208.867H5.522a5.955,5.955,0,0,0,0,11.878H54.478a5.955,5.955,0,0,0,0-11.878Z" transform="translate(0 -125.539)" fill="#37bba4"/>
+    <path id="Caminho_74" data-name="Caminho 74" d="M54.478,353.467H5.522a5.955,5.955,0,0,0,0,11.878H54.478a5.955,5.955,0,0,0,0-11.878Z" transform="translate(0 -251.078)" fill="#37bba4"/>
+  </g>
+</svg>

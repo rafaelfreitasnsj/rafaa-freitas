@@ -14,7 +14,8 @@
       <a class="grid-4" href="#">
         <img src="img/header/logo.svg" alt="logo">
       </a>
-      <nav class="grid-12 header-menu">
+
+      <nav id="nav" class="grid-12 header-menu">
         <ul>
 
           <li><a href="#sobre">Sobre</a></li>
@@ -26,6 +27,26 @@
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
+
+      <div id="dropmenu" class="grid-12">
+        <input onclick="menu()" type="checkbox" id="checkbox-menu">
+        <label class="label " for="checkbox-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul id="menu-lista" class="inativo">
+          <li><a href="#sobre">Sobre</a></li>
+
+          <li><a href="#projetos">Projetos</a></li>
+
+          <li><a href="#conhecimentos">Conhecimentos</a></li>
+
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+
     </div>
   </header>
 
@@ -155,6 +176,9 @@
       <p class="grid-16">Carinhosamente feito por Rafael de Freitas</p>
     </div>
   </footer>
+
+  <script language="JavaScript" src="js/script.js"></script>
+
 </body>
 
 </html>
